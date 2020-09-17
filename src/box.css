@@ -1,13 +1,13 @@
 .custom-input {
     background-color: transparent;
     color: white;
-    border: 1px solid red;
+    border: 1px solid #0d7377;
     border-radius: 10px;
     padding: 5px 10px;
 }
 
 .button-input{
-    background-color: yellow;
+    background-color: #14ffec;
     padding: 5px 10px;
     margin-top: 25px;
     color: black;
@@ -16,33 +16,41 @@
 
 .box--container{
     margin-top: 25px;
-    background-color: ghostwhite;
+    background-color: #323232;
     color: black;
     border-radius: 10px;
-    padding: 5px 10px;
-    width: 500px;
+    padding: 10px 25px;
+    width: auto;
     height: auto;
 }
 
 .box--content{
     display: flex;
     justify-content: center;
-    background-color: gray;
-    width: 50%;
-    margin: 15px auto;
-    padding: 10px 0;
+    background-color: #0d7377;
+    width: auto;
+    margin: 5px 10px;
+    /* padding: 5px 0; */
     color: white;
     border-radius: 5px;
 }
+.text--Content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
 
-.box--content > button{
+.button--content{
     align-self: center;
-    margin-left: 5px;
-    padding: 5px 10px;
+    margin: 5px;
     background-color: red;
     color: white;
     border: 1px transparent;
     cursor: pointer;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
 }
 
 .nothingToDo{

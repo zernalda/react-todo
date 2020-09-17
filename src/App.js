@@ -44,7 +44,7 @@ class App extends Component {
     const valueTodo = this.state.todoList;
     const {inputValue} = this.state
     return (
-      <div className="App">
+      <div className="container App">
         <header className="App-header">
           <InputBox 
             inputValue={inputValue} 

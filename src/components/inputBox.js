@@ -4,7 +4,7 @@ const InputBox = (props) => {
     const {inputValue, changeHandler, clickHandler} = props
     return (
         <div>
-            <label>to-do List</label>
+            <h2>To-Do List</h2>
             <br />
             <input 
               type="text"

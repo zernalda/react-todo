@@ -4,9 +4,13 @@ const BoxContent = (props) => {
     const {index, list , deleteHandler} = props
     return (
         <div>
-            <div key={index + list} className="box--content">
-                <p>{list}</p>
-                <button onClick={() => deleteHandler(list)}>x</button>
+            <div key={index + list} className="row box--content">
+                <div className="col-8">
+                    <p className="text--Content">{list}</p>
+                </div>
+                <div className="col-1">
+                    <button className="button--content" onClick={() => deleteHandler(list)}>-</button>
+                </div>
             </div>
         </div>
     );
