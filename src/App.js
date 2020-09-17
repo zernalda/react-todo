@@ -66,7 +66,7 @@ class App extends Component {
           </div>
           :
           <div className="nothingToDo">
-            nothig to do
+            <h2>nothig to do</h2>
           </div>
           } 
           
