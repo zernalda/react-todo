@@ -1,0 +1,51 @@
+.custom-input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.button-input{
+    background-color: yellow;
+    padding: 5px 10px;
+    margin-top: 25px;
+    color: black;
+    border-radius: 5px;
+}
+
+.box--container{
+    margin-top: 25px;
+    background-color: ghostwhite;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 500px;
+    height: auto;
+}
+
+.box--content{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.box--content > button{
+    align-self: center;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: 1px transparent;
+    cursor: pointer;
+}
+
+.nothingToDo{
+    margin: 20px;
+    font-style: italic;
+}
